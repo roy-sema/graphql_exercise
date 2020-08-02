@@ -7,7 +7,7 @@ class PremierLeagueMatchesIngest:
     URL = 'http://api.football-data.org/v2/competitions/PL/matches'
 
     # TODO - change to environmental variable
-    API_KEY = '16b240b8c4524ed9956c35bd9d558ef3'
+    API_KEY = ''
 
     def start_ingest(self, season_start):
         params = {
